@@ -1,0 +1,28 @@
+Attendance Management System Documentation
+
+Overview
+
+The Attendance Management System is a Flask-based web application designed for tracking student attendance in courses. It includes user authentication, attendance record creation, retrieval, and updating features, as well as logging capabilities.
+
+Installation
+
+1. Clone the project from GitHub.
+2. Install required Python packages.
+4. Run database migrations.
+5. Start the Flask application.
+
+User Authentication: Register, log in, and log out.
+Creating Attendance Records: Create attendance records for students with date and presence status.
+Retrieving Attendance Records: Get records by ID or student ID.
+Updating Attendance Records: Update records with new presence status.
+
+Logging
+
+The application logs events and errors to 'app.log' with INFO, WARNING, and ERROR categories.
+Database Schema
+
+The database includes tables for User, Student, Course, Department, and AttendanceLog.
+
+Dependencies
+
+Dependencies include Flask, Flask-Login, Flask-SQLAlchemy, Flask-Bcrypt, and MySQL (or other SQL databases).
